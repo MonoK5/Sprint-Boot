@@ -3,15 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-</head>
-
-<body>
+    <title>M.B.U NDAMASE - Music Producer Portfolio</title>
     
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <header id="home">
+        <div class="hero">
+            <h1>M.B.U NDAMASE</h1>
+            <p>Music Producer & Sound Engineer</p>
+            <a href="#music" class="btn">Listen to My Work</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About M.B.U NDAMASE</h2>
+        <p id="aboutP"> M.B.U NDAMASE is a passionate music producer and sound engineer based in Eastern Cape. With years of experience in the music industry, M.B.U specialises in creating unique beats and producing tracks across various genres, including hip-hop, afrobeat,house, and pop. His work has been featured in collaborations with top artists and on major platforms. Dedicated to pushing creative boundaries, M.B.U brings energy and innovation to every project.</p>
+    </section>
+
+    <section id="music">
+        <h2>Music Portfolio</h2>
+        <div class="track-list">
+            <div class="track">
+                <h3>Track 1 - Summer Vibes</h3>
+                <p>Genre: Afrobeat</p>
+                <audio controls>
+                    <source src="path/to/track1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="track">
+                <h3>Track 2 - Night Drive</h3>
+                <p>Genre: Hip-Hop</p>
+                <audio controls>
+                    <source src="path/to/track2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="track">
+                <h3>Track 3 - City Lights</h3>
+                <p>Genre: Pop</p>
+                <audio controls>
+                    <source src="path/to/track3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 M.B.U NDAMASE. All rights reserved.</p>
+    </footer>
 
    
-
 </body>
 </html>
